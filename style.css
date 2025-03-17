@@ -1,0 +1,40 @@
+
+*{
+    background: #43bfdbff;
+    
+}
+
+
+h1{
+    color:#fbca73ff;
+    background: #b47d4aff;
+    text-align: center;
+    font-family: FinkHeavy;
+    font-weight: 10;
+    
+ 
+}
+
+button{
+    width: 100%;
+    height: 70px;
+    align-content: center;
+    color:#2167aaff ;
+    background: white;
+    border-style: hidden;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+
+.container {
+    
+    margin: auto;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
