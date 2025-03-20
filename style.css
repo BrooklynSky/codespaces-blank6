@@ -11,30 +11,54 @@ h1{
     text-align: center;
     font-family: FinkHeavy;
     font-weight: 10;
-    
+   
+
  
 }
 
-button{
-    width: 100%;
-    height: 70px;
-    align-content: center;
-    color:#2167aaff ;
-    background: white;
-    border-style: hidden;
-    border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    cursor: pointer;
 
-}
 
 .container {
-    
-    margin: auto;
-    width: 10%;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    margin: auto; 
+
+
    
+  }
+  
+  button { height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-style: hidden;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-family: "Lexend", sans-serif;
+  
+  }
 
-}
+  p{background-color: rgb(255, 255, 255);
+    border: black, 1px, solid;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    font-family: "Lexend", sans-serif;
+  }
 
+  .next{
+    background-color: #80d23cff;
+   height:auto;
+    display:flex;
+    justify-self:center ;
+    justify-content: center;
+
+  }
