@@ -13,8 +13,11 @@ let six=document.querySelector(".six");
 let seven =document.querySelector(".seven");
 let eight =document.querySelector(".eight");
 
+let apple  =document.querySelector(".apple");
+
 
 question2.style.display= "none";
+apple.style.display= "none";
 
 
 
@@ -83,6 +86,7 @@ eight.onclick=function(){
     question2.style.display= "none";
 
     question2=eight;
+    
 
 }
 
