@@ -13,21 +13,35 @@ let six=document.querySelector(".six");
 let seven =document.querySelector(".seven");
 let eight =document.querySelector(".eight");
 
-let result  =document.querySelector(".result");
+let apple=document.querySelector(".apple");
+let tangy=document.querySelector(".tangy");
+let rosie=document.querySelector(".rosie");
+let toad=document.querySelector(".toad");
+
+
+let input1=document.querySelector(".question1");
+let input2=document.querySelector(".question2");
+
 
 
 question2.style.display= "none";
-result.style.display= "none";
+
+apple.style.display= "none";
+rosie.style.display= "none";
+toad.style.display= "none";
+tangy.style.display= "none";
+
 
 
 
 one.onclick=function(){
     console.log("onework");  
-    question1.style.display= "none";
+    
     question2.style.display= "block";
 
     question1=one;
-
+    // let question1=input1.value;
+question1.style.display= "none";
 }
 
 
@@ -87,8 +101,13 @@ eight.onclick=function(){
 
     question2=eight;
     
+};
 
+if (question1 === "one" && question2 ==="five"){
+    tangy.style.display= "block";
+    console.log("onefive"); 
 }
+
 
 
 
