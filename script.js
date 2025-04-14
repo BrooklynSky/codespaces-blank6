@@ -36,12 +36,15 @@ tangy.style.display= "none";
 
 one.onclick=function(){
     console.log("onework");  
-    
+
+    question1.style.display= "none";
     question2.style.display= "block";
 
-    question1=one;
-    // let question1=input1.value;
-question1.style.display= "none";
+    
+    question1="one";
+    
+
+
 }
 
 
@@ -50,7 +53,7 @@ two.onclick=function(){
     question1.style.display= "none";
     question2.style.display= "block";
 
-    question1=two;
+    question1="two";
 }
 
 three.onclick=function(){
@@ -59,7 +62,7 @@ three.onclick=function(){
     question2.style.display= "block";
 
 
-    question1=three;
+    question1="three";
 }
 
 four.onclick=function(){
@@ -67,31 +70,55 @@ four.onclick=function(){
     question1.style.display= "none";
     question2.style.display= "block";
 
-    question1=four;
+    question1="four";
 }
 
 
+// five.onclick=function(){
+//     console.log("fivework");  
+//     question2.style.display= "none";
+
+
+//     question2="five";
+
+
+//     if (question1 === "apple"){
+//         apple.style.display= "block"
+//     }
+
+// }
 five.onclick=function(){
     console.log("fivework");  
     question2.style.display= "none";
 
 
-    question2=five;
+    question2= "five";
 
+    if( question1 === "one"){
+
+apple.style.display = "block"
+        
+    }
+
+ if( question1 === "two"){
+
+        toad.style.display = "block"
+                
+            }
 }
 
 six.onclick=function(){
     console.log("sixwork");  
     question2.style.display= "none";
 
-    question2=six;
+    question2="six";
 }
 
 seven.onclick=function(){
     console.log("sevenwork");  
     question2.style.display= "none";
 
-    question2=seven;
+    question2="seven";
 
 }
 
@@ -99,14 +126,10 @@ eight.onclick=function(){
     console.log("eightwork");  
     question2.style.display= "none";
 
-    question2=eight;
+    question2="eight";
     
 };
 
-if (question1 === "one" && question2 ==="five"){
-    tangy.style.display= "block";
-    console.log("onefive"); 
-}
 
 
 
@@ -117,39 +140,5 @@ if (question1 === "one" && question2 ==="five"){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// let taste = document.querySelector(".taste");
-// console.log(taste)
-// let season = document.querySelector(".season");
-// console.log(season)
-// let quiz = document.querySelector(".quiz");
-// console.log(quiz)
-
-// quiz.onclick = function(){
-
-//     console.log('work button');
-
-// let answerTaste = taste.value;
-// console.log(answerTaste);
-
-// if (answerTaste === "salty"){
-//     console.log("Yes");
-// }
-// else if(answerTaste==="sweet"){
-//     console.log("Yes2")
-// }
-
-
-//     };
 
 
