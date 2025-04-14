@@ -17,7 +17,9 @@ let apple=document.querySelector(".apple");
 let tangy=document.querySelector(".tangy");
 let rosie=document.querySelector(".rosie");
 let toad=document.querySelector(".toad");
-
+let marshal=document.querySelector(".marshal");
+let chrissy=document.querySelector(".chrissy");
+let duck =document.querySelector(".duck");
 
 let input1=document.querySelector(".question1");
 let input2=document.querySelector(".question2");
@@ -30,6 +32,9 @@ apple.style.display= "none";
 rosie.style.display= "none";
 toad.style.display= "none";
 tangy.style.display= "none";
+marshal.style.display= "none";
+chrissy.style.display= "none";
+duck.style.display= "none";
 
 
 
@@ -74,19 +79,6 @@ four.onclick=function(){
 }
 
 
-// five.onclick=function(){
-//     console.log("fivework");  
-//     question2.style.display= "none";
-
-
-//     question2="five";
-
-
-//     if (question1 === "apple"){
-//         apple.style.display= "block"
-//     }
-
-// }
 five.onclick=function(){
     console.log("fivework");  
     question2.style.display= "none";
@@ -96,7 +88,7 @@ five.onclick=function(){
 
     if( question1 === "one"){
 
-apple.style.display = "block"
+tangy.style.display = "block"
         
     }
 
@@ -105,6 +97,18 @@ apple.style.display = "block"
         toad.style.display = "block"
                 
             }
+
+            if( question1 === "three"){
+
+                marshal.style.display = "block"
+                        
+                    }
+
+                    if( question1 === "four"){
+
+                        apple.style.display = "block"
+                                
+                            }
 }
 
 six.onclick=function(){
@@ -112,6 +116,23 @@ six.onclick=function(){
     question2.style.display= "none";
 
     question2="six";
+
+
+    if( question1 === "one"){
+
+        chrissy.style.display = "block"
+                
+            }
+
+            if( question1 === "two"){
+
+                duck.style.display = "block"
+                        
+                    }
+        
+
+
+
 }
 
 seven.onclick=function(){
