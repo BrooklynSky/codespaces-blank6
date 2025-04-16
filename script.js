@@ -20,6 +20,12 @@ let toad=document.querySelector(".toad");
 let marshal=document.querySelector(".marshal");
 let chrissy=document.querySelector(".chrissy");
 let duck =document.querySelector(".duck");
+let dragon =document.querySelector(".dragon");
+let pengiun =document.querySelector(".pengiun");
+let salty =document.querySelector(".salty");
+
+
+
 
 let input1=document.querySelector(".question1");
 let input2=document.querySelector(".question2");
@@ -35,7 +41,9 @@ tangy.style.display= "none";
 marshal.style.display= "none";
 chrissy.style.display= "none";
 duck.style.display= "none";
-
+dragon.style.display= "none";
+pengiun.style.display= "none";
+salty.style.display= "none";
 
 
 
@@ -130,6 +138,17 @@ six.onclick=function(){
                         
                     }
         
+                    if( question1 === "three"){
+
+                        dragon.style.display = "block"
+                                
+                            }
+
+                            if( question1 === "four"){
+
+                               rosie.style.display = "block"
+                                        
+                                    }
 
 
 
@@ -140,6 +159,24 @@ seven.onclick=function(){
     question2.style.display= "none";
 
     question2="seven";
+
+    if( question1 === "one"){
+
+        pengiun.style.display = "block"
+                
+            }
+
+            if( question1 === "two"){
+
+                salty.style.display = "block"
+                        
+                    }
+
+                    if( question1 === "three"){
+
+                        .style.display = "block"
+                                
+                            }
 
 }
 
