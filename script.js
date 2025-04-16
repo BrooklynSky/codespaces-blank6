@@ -23,6 +23,12 @@ let duck =document.querySelector(".duck");
 let dragon =document.querySelector(".dragon");
 let pengiun =document.querySelector(".pengiun");
 let salty =document.querySelector(".salty");
+let pink =document.querySelector(".pink");
+let blanche =document.querySelector(".blanche");
+let sascha =document.querySelector(".sascha");
+let uta =document.querySelector(".uta");
+let tammy =document.querySelector(".tammy");
+let tabea =document.querySelector(".tabea");
 
 
 
@@ -44,6 +50,12 @@ duck.style.display= "none";
 dragon.style.display= "none";
 pengiun.style.display= "none";
 salty.style.display= "none";
+pink.style.display= "none";
+blanche.style.display= "none";
+sascha.style.display= "none";
+uta.style.display= "none";
+tammy.style.display= "none";
+tabea.style.display= "none";
 
 
 
@@ -174,9 +186,15 @@ seven.onclick=function(){
 
                     if( question1 === "three"){
 
-                        .style.display = "block"
+                    pink.style.display = "block"
                                 
                             }
+
+                            if( question1 === "four"){
+
+                                blanche.style.display = "block"
+                                            
+                                        }
 
 }
 
@@ -185,6 +203,30 @@ eight.onclick=function(){
     question2.style.display= "none";
 
     question2="eight";
+
+    if( question1 === "one"){
+
+        sascha.style.display = "block"
+                
+            }
+
+            if( question1 === "two"){
+
+                uta.style.display = "block"
+                        
+                    }
+
+                    if( question1 === "three"){
+
+                        tammy.style.display = "block"
+                                
+                            }
+
+                            if( question1 === "four"){
+
+                                tabea.style.display = "block"
+                                        
+                                    }
     
 };
 
