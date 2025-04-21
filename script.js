@@ -29,6 +29,7 @@ let sascha =document.querySelector(".sascha");
 let uta =document.querySelector(".uta");
 let tammy =document.querySelector(".tammy");
 let tabea =document.querySelector(".tabea");
+let timbra =document.querySelector(".timbra");
 
 
 
@@ -56,6 +57,7 @@ sascha.style.display= "none";
 uta.style.display= "none";
 tammy.style.display= "none";
 tabea.style.display= "none";
+timbra.style.display= "none";
 
 
 
@@ -224,7 +226,7 @@ eight.onclick=function(){
 
                             if( question1 === "four"){
 
-                                tabea.style.display = "block"
+                                timbra.style.display = "block"
                                         
                                     }
     
